@@ -1,0 +1,178 @@
+body{
+	background-color:#EEE;
+	font-family: calibri;
+	margin: 0;
+}
+.container{
+	width: 960px;
+	margin: 30px auto 0 auto;
+}
+.content{
+	float: left;
+	width: 960px;
+	margin-bottom: 20px;	
+}
+header{
+	float: left;
+	width: 960px;
+}
+
+/*========== Menubar ===========*/
+nav{
+	float: left;
+	width: 960px;
+	background-color: #69f0ae;	
+}
+nav ul{
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+nav ul li{
+	float: left;
+	list-style-type: none;
+}
+nav ul li a{
+	float: left;
+	text-decoration: none;
+	color: #FFF;
+	text-transform: uppercase;
+	padding:15px 15px;
+	font-weight: bold;
+}
+nav ul li a:hover{
+	background-color: #00e676;
+}
+
+.slider{
+	float: left;
+	width: 960px;
+	margin:5px 0 15px 0;
+}
+
+/*========== Main Content ===========*/
+main{
+	float: left;
+	width: 650px;
+	background-color: #FFF;
+}
+main h2{
+	float: left;
+	width: 100%;	
+	background: url('../images/asideLeft.png');
+	background-repeat: no-repeat;
+	color: #FFF;
+	padding: 10px 0 10px 15px;
+	margin: 0;
+}
+main p{
+	float: left;	
+	padding: 5px 15px 10px 15px;
+	text-align: justify;
+	margin: 0 0 20px 0;
+	color: #777;
+}
+
+
+aside{
+	float: right;
+	width: 300px;	
+}
+aside h2{
+	float: left;
+	width: 270px;
+	background-color: #69f0ae;
+	margin: 0;
+	padding: 10px 15px;
+	color:#FFF;
+}
+
+/*========== Aside Right ===========*/
+.rightNav{
+	float: left;
+	width: 100%;
+	padding: 5px 0 20px 0;
+	background-color: #FFF;
+	margin-bottom: 15px;
+}
+.rightNav ul li a{	
+	width: 100%;
+	color:#777;
+	margin-bottom: 5px;
+	display: block;
+	transition:0.2s;
+}
+.rightNav ul li a:hover{
+	text-indent: 20px;
+	transition:0.2s;
+}
+
+/*========== Footer ===========*/
+footer{
+	float: left;
+	width: 100%;
+	background-color: #333;
+	padding-top: 15px;
+	border-top: 5px solid #69f0ae;
+}
+.footerFrame{
+	width: 960px;
+	margin: 0 auto;
+}
+.sector{
+	float: left;
+	width: 320px;
+	padding-bottom: 15px;
+}
+.sector h3{
+	margin: 0;
+	color: #888;
+}
+.sector p{
+	color: #777;
+	margin: 0;
+}
+.sector ul{
+	margin: 0;
+	padding:0;
+	color: #777;
+}
+.sector ul li{
+	list-style-position: inside;
+}
+.sector ul li a{
+	color: #777;
+	text-decoration: none;
+}
+.sector ul li a:hover{
+	text-decoration: underline;	
+}
+
+.icon a img{
+	float: left;
+	width: 32px;
+	margin-right: 10px;
+	transition:0.3s;
+}
+.icon a img:hover{
+	transition:0.3s;
+	transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+/*========== Copy Right ===========*/
+p.copyright{
+	float: left;
+	width: 100%;
+	padding: 10px 0;
+	text-align: center;
+	color:#777;
+	background-color: #222;
+	margin: 0;
+	font-size: 12px;
+}
+p.copyright a{
+	color: #ffab40;
+	text-decoration: none;
+}
